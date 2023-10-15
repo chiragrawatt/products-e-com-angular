@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-body d-flex flex-column">
+        <img class="card-img-top img-fluid" [src]="product.image">
+        <span class="fw-bold">Mens
+            Casual Premium Slim Fit T-Shirts </span>
+        <span class="text-danger mt-1">${{product.price}}</span>
+        <span class="text-warning">{{product.rating.rate}}<i class="bi bi-star-fill"></i></span>
+        <span>({{product.rating.count}})</span>
+        <button class="btn btn-primary mt-auto">Add to cart</button>
+    </div>
+</div>
